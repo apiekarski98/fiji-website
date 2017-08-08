@@ -17,6 +17,11 @@ body {
     margin: 0
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 article,
 aside,
 details,
@@ -2014,6 +2019,15 @@ pre code {
 .row {
     margin-right: -15px;
     margin-left: -15px
+}
+
+footer>.row>.col-lg-12 {
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 0
 }
 
 .col-lg-1,
