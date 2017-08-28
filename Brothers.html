@@ -73,13 +73,51 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h1>Our Cabinet</h1>
+                <style>
+                    header {
+                        padding: 1em;
+                        text-align: center;
+                        max-width: 100%;
+                    }
+                </style>    
+                <header>
+                    <h1>Our Cabinet</h1>
+                </header>
                 <!-- This page will contain the 5 images of our cabinet 
 running down the right hand side of the page. In the left 
 hand column, mirroring the images, will be a description of each member.
 We may want to format the description to include their 
 with a pseudo header or something. -->
-                <p>There are 72 brothers in Fiji.</p>
+                <!-- This was the idea we had to try and align cabinet members
+on the left, with their accompanying text on the right. To do this we are using subclasses
+of "article" to split the screen in 1:2 ratio. 
+                <style>
+                    article {
+                        
+                    }
+                    article left {
+                        float: left;
+                        width: 33%;
+                        margin: 0;
+                        padding: 1em;
+                    }
+                    article right {
+                        float: right;
+                        width: 67%;
+                        border-left: 1px solid gray;
+                        padding: 1em;
+                    }
+                </style>
+                <article>
+                    <right>
+                    This is the right side, right?
+                    </right>
+                </article>
+                <article>
+                    <left>
+                    This is the left side, am i right?
+                    </left>
+                </article>
             </div>
         </div>
 
